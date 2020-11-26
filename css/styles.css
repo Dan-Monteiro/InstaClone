@@ -30,16 +30,29 @@ form {
     justify-content: center;
     width: 60%;
     height: 100vh;
+    margin: 0;
 }
 
 .instagram-phone {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
 
 .instagram-phone img {
-    height: 43rem;
+    height: 43rem;	
+}
+
+.phone-screen {
+    height: 29.6rem !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 4.45rem;
+    margin-top: 7rem;
+}
+
+.not-visible {
+    display: none;
 }
 
 .instagram-form {
