@@ -13,8 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.css" rel="stylesheet" />
+     <!-- Font Awesome Icons-->
+     <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
 
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 
 </head>
 
@@ -31,12 +33,23 @@
                         <input type="text" id="formControlSm" class="form-control" />
                         <label class="form-label" for="formControlSm">Telefone, nome de usuário ou email</label>
                     </div>
-
                     <div class="form-outline">
                         <input type="text" id="formControlSm" class="form-control" />
                         <label class="form-label" for="formControlSm">Senha</label>
                     </div>
                     <button type="button" class="btn btn-info btn-disbled" disabled>Entrar</button>
+                    <div class="or-div">
+                        <span class="span-hr"></span>
+                        <span class="or-word">OU</span>
+                        <span class="span-hr"></span>
+                    </div>
+                    <div class="facebook-wrapper">
+                        <i class="fa fa-facebook-official fa-md facebook-icon" aria-hidden="true"><!--Facebook Icon--></i>
+                        <span class="facebook-label">Entrar com o Facebook</span>
+                    </div>
+                    <div class="forget-wrapper">
+                        <span class="forget-word">Esqueceu a senha?</span>
+                    </div>
                 </form>
             </div>
             <div class="group group-row">
@@ -45,8 +58,8 @@
             <div class="get-the-app">
                 <p class="get-app">Obtenha o aplicativo</p>
                 <div class="downloads">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"><img src="./img/stores/app-store.png" class="store-ico"/></a>
+                    <a href="#" class="app-download"><img src="./img/stores/google-play.png" class="store-ico"/></a>
                 </div>
             </div>
         </div>

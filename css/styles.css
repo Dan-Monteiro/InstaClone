@@ -24,7 +24,7 @@ form {
     height: auto;
 }
 
-.instagram-wrapper{
+.instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,17 +32,17 @@ form {
     height: 100vh;
 }
 
-.instagram-phone{
+.instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.instagram-phone img{
-    height: 40rem;
+.instagram-phone img {
+    height: 43rem;
 }
 
-.instagram-form{
+.instagram-form {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -68,25 +68,91 @@ form {
     align-items: center;
 }
 
-#logo-insta{
+#logo-insta {
     width: 100%;
     max-width: 200px;
     height: auto;
     margin-bottom: 3rem;
 }
 
-.link-blue{
+.or-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.span-hr{
+    width: 100%;
+    height: 1px;
+    background-color: #C5C5C5;
+}
+
+.or-word {
+    margin: 0px 15px;
+    color: #8e8e8e;
+}
+
+.facebook-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 18px 0px;
+}
+
+.facebook-label {
+    color: #385185;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: 2%;
+}
+
+.facebook-icon{
+    color: #385185 !important;
+}
+
+.forget-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.forget-word {
+    color: #356089;
+    font-size: 12px;
+}
+
+.link-blue {
     color: #0095F6;
     font-weight: 500;
 }
 
-.link-blue:hover{
+.link-blue:hover {
     cursor: pointer;
 }
 
-.not-registered{
+.not-registered {
     margin: 0;
     margin-right: 3px;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-app {
+    margin: 18px;
+}
+
+.store-ico {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
 }
 
 /*Override mdb style*/
@@ -94,6 +160,10 @@ form {
     background-color: #fcf9fc !important;
     margin: 5px 10px;
     min-width: 250px;
+}
+
+.form-label {
+    /*color: #c9c7c7 !important;*/
 }
 
 .btn {
