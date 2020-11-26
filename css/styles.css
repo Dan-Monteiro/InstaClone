@@ -1,4 +1,4 @@
-/*Reset defaulot styling*/
+/*Reset default styling*/
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +12,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #FAFAFA;
     margin: 0;
     padding: 0;
     display: flex;
@@ -99,6 +99,7 @@ form {
     justify-content: center;
     flex-direction: row;
     margin: 18px 0px;
+    cursor: pointer;
 }
 
 .facebook-label {
@@ -122,6 +123,7 @@ form {
 .forget-word {
     color: #356089;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .link-blue {
@@ -143,16 +145,24 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .get-app {
     margin: 18px;
 }
 
+.downloads {
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .store-ico {
     width: 100%;
-    max-width: 130px;
-    height: auto;
+    max-width: 10rem;
+    height: 3rem;
 }
 
 /*Override mdb style*/
@@ -173,4 +183,26 @@ form {
 
 .btn-disbled{
     background-color: #8dd1fc !important;
+}
+
+/*Mobile Style*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    body {
+        background-color: #FFF;
+    }
+
+    .instagram-wrapper{
+        align-items: flex-start;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .group {
+        border: none;
+    }
 }
