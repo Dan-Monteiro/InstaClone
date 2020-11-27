@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.css" rel="stylesheet" />
-     <!-- Font Awesome Icons-->
-     <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
 
     <link rel="stylesheet" href="./css/styles.css" />
 
@@ -35,14 +35,14 @@
                 <img id="logo-insta" src="./img/logo.PNG" alt="Instagram logo" />
                 <form>
                     <div class="form-outline">
-                        <input type="text" id="formControlSm" class="form-control" />
+                        <input type="text" id="formControlSm" class="form-control" oninput="validate()"/>
                         <label class="form-label" for="formControlSm">Telefone, nome de usuário ou email</label>
                     </div>
                     <div class="form-outline">
-                        <input type="text" id="formControlSm" class="form-control" />
+                        <input type="text" id="formControlSm" class="form-control" oninput="validate()"/>
                         <label class="form-label" for="formControlSm">Senha</label>
                     </div>
-                    <button type="button" class="btn btn-info btn-disbled" disabled>Entrar</button>
+                    <button type="button" class="btn btn-info btn-disbled" onclick="btnClick()" disabled>Entrar</button>
                     <div class="or-div">
                         <span class="span-hr"></span>
                         <span class="or-word">OU</span>
@@ -68,11 +68,17 @@
                 </div>
             </div>
         </div>
+        <div class="alert alert-success" role="alert">
+            Thanks for viewing and feel free to comment!
+        </div>
     </div>
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.js"></script>
-    <script type="text/javascript" src="./js/index.js"></script>
+    <!--Own Project JS-->
+    <script type="text/javascript" src="./js/phone-anime.js"></script>
+    <script type="text/javascript" src="./js/form.js"></script>
+
 </body>
 
 </html>

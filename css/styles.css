@@ -198,6 +198,17 @@ form {
     background-color: #8dd1fc !important;
 }
 
+.alert-success{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5rem;
+    opacity: 0;
+}
+
+.alert-success-entry {
+    transition: opacity 1.5s ease-in;
+}
+
 /*Mobile Style*/
 
 @media only screen 

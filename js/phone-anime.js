@@ -1,6 +1,9 @@
+
 var elementList = document.querySelectorAll(".phone-screen");
+
+/*vars to control phone animation*/
 var repeat = false;
-var actual = 0;
+var current = 0;
 
 setInterval(() => {
 
@@ -10,9 +13,10 @@ setInterval(() => {
         
         element = elementList[i];
 
-        if(actual + 1 === elementList.length){
-            actual = 0;
-            element = elementList[actual];
+        /*reseting array ends*/
+        if(current + 1 === elementList.length){
+            current = 0;
+            element = elementList[current];
             element.classList.remove("not-visible");
             element.classList.add("transtion-screen");
             element = elementList[elementList.length - 1];
@@ -22,13 +26,15 @@ setInterval(() => {
             break;
         }
 
-        if(i === actual){
+        /*Setting current as default*/
+        if(i === current){
             element.classList.add("not-visible");
             element.classList.remove("transtion-screen");
             repeat = false;
         }
 
-        if(i === actual + 1){
+        /*Setting next as current*/
+        if(i === current + 1){
             element.classList.remove("not-visible");
             element.classList.add("transtion-screen");
             repeat = false;
@@ -38,7 +44,7 @@ setInterval(() => {
     }
 
     if(repeat === false){
-        actual++;
+        current++;
     }
 
 }, 5500);
