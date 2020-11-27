@@ -194,8 +194,12 @@ form {
     margin-top: 10px;
 }
 
-.btn-disbled{
+.btn-disabled {
     background-color: #8dd1fc !important;
+}
+
+.btn-active {
+    background-color: #1462ff !important;
 }
 
 .alert-success{

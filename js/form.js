@@ -15,8 +15,12 @@ function validate(){
 
     if(empty){
         button.disabled = true;
+        button.classList.remove("btn-active");
+        button.classList.add("btn-disabled")
     }else{
         button.disabled = false;
+        button.classList.add("btn-active");
+        button.classList.remove("btn-disabled");
     }
 
 }
