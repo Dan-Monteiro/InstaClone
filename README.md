@@ -20,11 +20,13 @@ A Instagram login web page clone.
 
 1 - Desktop page
 
-<img src="https://raw.githubusercontent.com/Dan-Monteiro/public_images/main/InstagramClone/instagram_login_page.png" width="85%" align="left" />
+<img src="https://raw.githubusercontent.com/Dan-Monteiro/public_images/main/InstagramClone/instagram_login_page.png" width="85%" align="left" />  
 
 
 
 <img src="https://raw.githubusercontent.com/Dan-Monteiro/public_images/main/InstagramClone/instagram_login_page_mobile_.png" width="33%" align="left" />
+
+
 
 
 
