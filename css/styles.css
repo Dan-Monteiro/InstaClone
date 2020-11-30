@@ -28,8 +28,9 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
     width: 60%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
 }
 
@@ -224,6 +225,7 @@ and (max-device-width : 480px) {
 
     .instagram-wrapper{
         align-items: flex-start;
+        align-self: start;
     }
 
     .instagram-phone{
