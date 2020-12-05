@@ -1,6 +1,6 @@
 # InstagramClone
 
-A Instagram login web page clone.
+A Instagram login web page clone [Accessed November 25, 2020].
 
 ### Features
 
