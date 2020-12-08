@@ -18,8 +18,6 @@ A Instagram login web page clone [Accessed November 25, 2020].
 
 ### Demo
 
-Available on this [link](https://instagram-web-login-clone.herokuapp.com/index.html) !
-
 #### Screenshots
 
 <img src="https://raw.githubusercontent.com/Dan-Monteiro/public_images/main/InstagramClone/instagram_login_page.png" width="85%" align="left" />  
