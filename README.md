@@ -1,4 +1,4 @@
-# InstagramClone
+# InstaClone
 
 A Instagram login web page clone [Accessed November 25, 2020].
 
