@@ -1,6 +1,7 @@
 # InstaClone
 
-A Instagram login web page clone [Accessed November 25, 2020].
+Project built based on Html and CSS course in partnership with [DIO](https://digitalinnovation.one). </br>
+A Instagram login web page clone [Accessed November 25, 2020]. 
 
 ### Features
 
